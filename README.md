@@ -1,13 +1,20 @@
 # oh-my-zsh git plugin
+
 This plugin is a complete replacement for the default oh-my-zsh git plugin,
-and provides quite a few useful aliases and functions.
+and provides quite a few useful aliases and functions. It is dead-simple to set-up and makes the git commands more intuitive and easier-to-use.
+
+This tool also sets to have a minimal amount of aliases necessary, while still remaining useful.
+
 The motivation to replace the default plugin stems from the fact
 that it comes with some inconsistencies that make a few popular commands
 rather unintuitive:
+
 * `gcm='git checkout master'`: this is inconsistent with `gco='git checkout'`,  
  and on top of that it steals what should be the shortcut for `git commit -m`.
+
 * Similar issues with `git log`: half of the commands use `glg`, the other half `gl`,  
   but `gl` by itself is `git pull` (!?), for which `gpl` would make more sense.
+
 * ...
 
 The efficiency of these shortcuts is kind of lost when you have to remember
