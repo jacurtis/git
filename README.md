@@ -29,7 +29,7 @@ On top of that, quite a few extra functions are added.
 ## Installation
 To use this plugin, clone this repo to `~/.oh-my-zsh/custom/plugins`:
 ```
-git clone https://github.com/davidde/git.git ~/.oh-my-zsh/custom/plugins/git
+git clone https://github.com/jacurtis/git.git ~/.oh-my-zsh/custom/plugins/git
 ```
 This will automatically override the default git plugin.
 
