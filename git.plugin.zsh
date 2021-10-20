@@ -153,6 +153,7 @@ alias gremsh='git remote show'
 alias gremv='git remote -v'
 alias grl='git reflog' # Useful to restore lost commits after reset
 alias grm='git rm'
+alias grmc='git rm -r --cached'
 
 # Yes, I am aware gs is commonly aliased to ghostscript,
 # but since my usage of ghostscript is rare compared to git,
