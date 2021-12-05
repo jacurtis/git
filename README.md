@@ -22,7 +22,8 @@ different letters for the same subcommand depending on the parameter(s)
 you're using ...
 
 In this plugin, great care care is taken to make sure all aliases are the most
-intuitive they can possibly be.  
+intuitive they can possibly be.
+
 On top of that, quite a few extra functions are added.
 
 
@@ -37,6 +38,13 @@ If you aren't yet using the default plugin,
 add `git` to the plugins in your `~/.zshrc` file:
 ```
 plugins=(git)
+```
+
+## Updating
+This plugin does get occassional updates. If you wish to update, you can run the following command:
+
+```bash
+cd $ZSH_CUSTOM/plugins/git && git pull --ff-only && cd -1
 ```
 
 
